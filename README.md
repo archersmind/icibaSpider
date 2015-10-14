@@ -24,14 +24,14 @@ Spider
 
 This project contains only one spider called ``CibaSpider``. When this spider running, the English Words and its'
 
-corresponding phonetic symbol, Chinese parahrase, pronunciation clip's url will be scraped. See the source code for
+corresponding phonetic symbol, Chinese parahrase, pronunciation clip's `url` will be scraped. See the source code for
 
 more details
 
 Make it works
 =============
 
-All items scraped will be stored into a json formatted file named json.data Using::
+All items scraped will be stored into a `json` formatted file named json.data Using::
 
     scrapy runspider CibaSpider.py -o json.data -t json
       
